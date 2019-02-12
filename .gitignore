@@ -2,17 +2,8 @@
 /__testing/*
 !template
 /node_modules
-*.sublime-project
-*.sublime-workspace
-dev_mode.php
-*.ppt
-*__*.php
-**/app.log
 */bk/*
 /public/*_bundle.js
-*sublime*
-/sample/*
 /test/*
 .vscode
-.idea
 jsconfig.json
