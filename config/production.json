@@ -1,0 +1,11 @@
+{
+	"secret" : "**secret**",
+	"server_port":80,
+	"db" : {
+		"host"     : "**host**",
+		"database" : "**db**",
+		"user"     : "**user**",
+		"password" : "**pass**"
+	},
+	"bucket":"**bucket**"
+}

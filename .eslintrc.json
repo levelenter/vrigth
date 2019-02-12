@@ -1,0 +1,31 @@
+{
+    "extends": ["eslint:recommended"],
+    "plugins": ["riot"],
+    "env": {
+    	"browser": true,
+        "es6": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "globals": {
+        "opts": true,
+        "riot": true,
+        "route" : false,
+        "$" :false,
+        "require": false ,
+        "exports" : false,
+        "Blockly" : false
+    },
+    "rules": {
+         "no-undef" : "off",
+         "no-redeclare":"off",
+         "no-unused-vars": "warn",
+         "no-console": "off",
+         "eqeqeq": "off",
+         "no-useless-escape" : "off",
+         "no-irregular-whitespace" : "warn"
+    }
+}
